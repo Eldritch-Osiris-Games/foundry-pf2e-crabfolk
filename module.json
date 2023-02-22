@@ -1,0 +1,82 @@
+{
+  "title": "Crabfolk",
+  "name": "foundry-pf2e-crabfolk",
+  "description": "",
+  "manifest": "https://raw.githubusercontent.com/Eldritch-Osiris-Games/foundry-pf2e-crabfolk/main/module.json",
+  "download": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-crabfolk/archive/refs/heads/main.zip",
+  "url": "https://github.com/Eldritch-Osiris-Games/foundry-pf2e-crabfolk",
+  "authors": [],
+  "version": "v1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.290"
+  },
+  "relationships": {
+    "systems": {
+      "id": "pf2e",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/download/latest/system.json",
+      "compatibility": {
+        "minimum": "4.0.0"
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "crabfolk-ancestries-heritages",
+      "label": "Crabfolk Ancestries & Heritages",
+      "path": "./packs/crabfolk-ancestries-heritages.db",
+      "type": "Item",
+      "module": "Crabfolk",
+      "system": "pf2e"
+    },
+    {
+      "name": "crabfolk-feats",
+      "label": "Crabfolk Feats",
+      "path": "./packs/crabfolk-feats.db",
+      "type": "Item",
+      "module": "Crabfolk",
+      "system": "pf2e"
+    },
+    {
+      "name": "crabfolk-effects",
+      "label": "Crabfolk Effects",
+      "path": "./packs/crabfolk-effects.db",
+      "type": "Item",
+      "module": "Crabfolk",
+      "system": "pf2e"
+    },
+    {
+      "name": "crabfolk-equipment",
+      "label": "Crabfolk Equipment",
+      "path": "./packs/crabfolk-equipment.db",
+      "type": "Item",
+      "module": "Crabfolk",
+      "system": "pf2e"
+    }
+  ],
+  "flags": {
+      "foundry-pf2e-crabfolk": {
+          "pf2e-homebrew": {
+                "creatureTraits": {
+                    "crabfolk": {
+                        "label": "Crabfolk",
+                        "description": ""
+                    }
+                },
+                "featTraits": {
+                    "crabfolk": {
+                        "label": "Crabfolk",
+                        "description": ""
+                      }
+                  },
+                "languages": {
+                    "brachien": {
+                        "label": "Brachien",
+                        "description": ""
+                    }
+                }
+                
+            }
+        }
+    }
+}
